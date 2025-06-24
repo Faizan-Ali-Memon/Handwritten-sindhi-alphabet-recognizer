@@ -4,16 +4,18 @@ A deep learning-powered web app that classifies **handwritten Sindhi alphabets**
 
 ## 📁 Project Structure
 
-SindhiAlphabetRecognizer/
-|-- dataset/             # Contains handwritten Sindhi alphabet dataset (56 folders)
-|-- notebook/
-|   `-- training.ipynb   # Jupyter notebook for training the CNN model
-|-- test_results/        # Sample prediction results
-|-- model/
-|   `-- sindhi_model.keras   # Trained TensorFlow model
-|-- main.py              # Streamlit app for prediction
-|-- requirements.txt     # Required Python packages
-`-- README.md            # Project documentation
+| Folder/File                | Description                                               |
+| -------------------------- | --------------------------------------------------------- |
+| `dataset/`                 | Contains handwritten Sindhi alphabet dataset (56 folders) |
+| `notebook/`                | Contains training notebook                                |
+| `notebook/training.ipynb`  | Jupyter notebook for training the CNN model               |
+| `test_results/`            | Sample prediction result images                           |
+| `model/`                   | Contains the saved trained model                          |
+| `model/sindhi_model.keras` | Trained TensorFlow model                                  |
+| `main.py`                  | Streamlit app for running the prediction                  |
+| `requirements.txt`         | Python package dependencies                               |
+| `README.md`                | Project documentation                                     |
+
 
 
 ---
